@@ -1,0 +1,85 @@
+.xit-float-button-wrapper {
+    box-sizing: border-box;
+    font-family: "PTSans", sans-serif;
+    color: #000;
+}
+
+.xit-float-button-wrapper {
+    position: relative;
+}
+#xit-widget-wa-modal {
+    position: fixed;
+    width: 350px;
+}
+@media only screen and (max-width: 600px) {
+    #xit-widget-wa-modal {
+    width: 280px;
+}
+}
+
+#xit-widget-wa-modal p {
+    font-size: 14px !important;
+    color: #000;    
+    font-family: "PTSans", sans-serif;
+}
+
+.xit-widget-wa-modal-content {
+    padding: 0;
+    background: #fff;
+    border-radius:.7rem;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
+    /*min-height: 250px;*/
+}
+
+.xit-widget-wa-modal-header {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: .7rem .7rem 0 0;
+}
+.xit-widget-wa-modal-welcome {
+    margin: 20px;
+    padding: 10px;
+    border: 1px dashed #dce9ff;
+    background: #F7FAFF;
+    border-radius:1.5rem 0 1.5rem 0;
+}
+.xit-widget-wa-modal-brand {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.xit-widget-wa-modal-brand a{
+    text-decoration: none;
+}
+.xit-widget-wa-modal-content .close {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a079e9;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    font-size: 0.9rem;
+}
+.xit-widget-wa-modal-content .close:hover {
+    background-color: #7c68ea;
+}
+.xit-widget-wa-modal-content .close:active {
+    top: 1px;
+}
+.xit-widget-wa-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url("../images/whatsapp.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    /*box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);*/
+}
